@@ -38,7 +38,7 @@ function App() {
           
           : //else
           
-          <div className="grid grid-cols-3 gap-4">
+          <div className="card-container">
             {images.map(image =>(
               <Card key={image.id} image={image} />
             ))}
